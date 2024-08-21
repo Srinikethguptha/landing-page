@@ -1,0 +1,133 @@
+body, h1, h2, p, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 150px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+/* Features section styling */
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.feature-box {
+    background: #e9ecef;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.feature-box h2 {
+    margin-bottom: 10px;
+}
+
+/* Call to Action section */
+.cta {
+    background: #28a745;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+.footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-box {
+        margin-bottom: 20px;
+    }
+
+    .hero-image {
+        width: 100px;
+    }
+}
